@@ -55,13 +55,17 @@ a,
 .subtext {
     font-size: 18px;
     color: #e5e7eb;
-    max-width: 55%;
+}
+
+.subtext {
+    max-width: 50%;
 }
 
 .content {
     display: flex;
     justify-content: space-between;
     padding-left: 200px;
+    padding-bottom: 100px;
 } 
 
 .hero-main-text {
@@ -79,8 +83,18 @@ button {
     cursor: pointer;
     padding: 8px 16px;
     border-radius: 8px;
+    max-width: 20%;
+    color: #e5e7eb;
+    font-weight: bold;
+    margin-top: 15px;
 }
 
 .sign-up {
     background: #3882f6;
+}
+
+.img-container {
+    display: flex;
+    padding-right: 100px;
+    align-items: center;
 }
