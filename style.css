@@ -4,14 +4,14 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: Roboto, serif;
+    font-family: "Roboto", serif;
 }
 
 .upper-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: #1f2937;    
+    background: #1f2937;
 }
 
 .upper {
@@ -63,14 +63,14 @@ a,
 }
 
 .subtext {
-    max-width: 50%;
+    max-width: 55%;
 }
 
 .content {
     display: flex;
     justify-content: space-between;
     padding-bottom: 100px;
-} 
+}
 
 .hero-main-text {
     font-size: 48px;
@@ -117,8 +117,6 @@ button {
 }
 
 .info-header {
-    display: flex;
-    justify-content: center;
     font-size: 36px;
     font-weight: 800;
     margin-bottom: 20px;
@@ -128,7 +126,7 @@ button {
 .info-square {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 60px;
 }
 
 .square {
@@ -143,4 +141,31 @@ button {
 .info-text {
     text-align: center;
     margin-top: 10px;
+}
+
+.quote-container {
+    display: flex;
+    background: #e5e7eb;
+    margin-top: 100px;
+    padding: 100px;
+}
+
+.quote-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.quote-txt {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+    max-width: 50%;
+}
+
+.quote-author {
+    display: flex;
 }
