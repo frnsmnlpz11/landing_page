@@ -185,6 +185,7 @@ button {
     padding: 50px;
     background: #3882f6; 
     margin: auto;
+    max-width: 60%
 }
 
 .call-txt {
