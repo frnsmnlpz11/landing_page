@@ -203,6 +203,15 @@ button {
     border-color: #f9faf8;
 }
 
+.footer {
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1f2937;
+    color: #e5e7eb;
+  }
+
 
 
 
